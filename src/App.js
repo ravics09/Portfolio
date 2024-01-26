@@ -8,8 +8,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // import common components
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+import NavBar from "./components/navbar";
 
 // import pages
 import Home from "./pages/Home/home";
@@ -33,7 +32,8 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <NavBar />
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
