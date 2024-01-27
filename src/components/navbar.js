@@ -18,14 +18,13 @@ const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
   const [navValue, updateNavValue] = useState(false);
 
- 
   const scrollHandler = () => {
     if (window.scrollY >= 20) {
       updateNavValue(true);
     } else {
       updateNavValue(false);
     }
-  }
+  };
 
   window.addEventListener("scroll", scrollHandler);
 
@@ -37,7 +36,7 @@ const NavBar = () => {
       className={navValue ? "sticky" : "navbar"}
     >
       <Container>
-      <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -72,12 +71,12 @@ const NavBar = () => {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/projects"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
-                />{" "}
+                />
                 Projects
               </Nav.Link>
             </Nav.Item>
