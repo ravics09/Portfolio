@@ -17,6 +17,7 @@ import Home from "./pages/Home/home";
 import About from "./pages/About/about";
 import Projects from "./pages/Projects/projects";
 import Resume from "./pages/Resume/resume";
+import Contact from "./pages/Contact/contact";
 
 import "./App.css";
 import "./style.css";
@@ -42,6 +43,7 @@ const App = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

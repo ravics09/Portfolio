@@ -482,6 +482,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+  height: 96vh;
 }
 
 .project-card {
@@ -569,4 +570,31 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+
+/* Contact Me */
+.contact-me-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 150px !important;
+  background-image: var(--section-background-color) !important;
+  height: 96vh;
+}
+.contact-me-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+.contact-me-section-form {
+  position: relative !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  justify-content: center;
+  text-align: left;
+  color: white;
+}
+.contact-section-footer{
+  justify-content: center;
+  padding-top: 150px !important;
 }

@@ -11,6 +11,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineContacts
 } from "react-icons/ai";
 import logo from "../assets/logo.png";
 
@@ -76,8 +77,7 @@ const NavBar = () => {
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
-                />
-                Projects
+                /> Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -103,11 +103,11 @@ const NavBar = () => {
 
             <Nav.Item>
               <Nav.Link
-                href="http://localhost:3000"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Contact me
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
