@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 import React, { useState } from "react";
 import { Container, Form, Button, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiOutlineTwitter, AiFillYoutube } from "react-icons/ai";
@@ -35,7 +37,7 @@ const Contact = () => {
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         e.target,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
         (result) => {
@@ -43,7 +45,7 @@ const Contact = () => {
         },
         (error) => {
           resetData("Please try after sometime.");
-        }
+        },
       );
   };
 
@@ -58,7 +60,7 @@ const Contact = () => {
   return (
     <Container fluid className="contact-me-section">
       <h1 className="contact-me-heading">
-        Let's <strong className="purple">Connect </strong>
+        Let&apos;s <strong className="purple">Connect </strong>
       </h1>
       <p style={{ color: "white" }}>
         Hit me up if you have any questions or just want to say Hi!
@@ -118,7 +120,7 @@ const Contact = () => {
                   width: "100%",
                 }}
               >
-                Let's talk!
+                Let&apos;s talk!
               </Button>
             </Form>
           </Col>

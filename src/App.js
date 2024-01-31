@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <Router>
-      <PreLoader load={load}/>
+      <PreLoader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <NavBar />
         <Routes>
@@ -50,6 +50,6 @@ const App = () => {
       </div>
     </Router>
   );
-}
+};
 
 export default App;

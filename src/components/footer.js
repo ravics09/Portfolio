@@ -1,10 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillYoutube } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
@@ -25,7 +21,7 @@ const Footer = () => {
               <a
                 href="https://github.com/ravics09"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -35,7 +31,7 @@ const Footer = () => {
               <a
                 href="https://twitter.com/JS_Centric?t=nyKrM6oaUigAUYNtsWkuUw&s=09"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
@@ -45,7 +41,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/ravics09/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -55,7 +51,7 @@ const Footer = () => {
               <a
                 href="https://www.youtube.com/channel/UC9MmyicGIveu0AId8OFAOmQ"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillYoutube />
@@ -66,6 +62,6 @@ const Footer = () => {
       </Row>
     </Container>
   );
-}
+};
 
 export default Footer;

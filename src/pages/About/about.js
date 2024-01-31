@@ -24,7 +24,7 @@ const About = () => {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="purple">I&apos;M</strong>
             </h1>
             <Card className="quote-card-view">
               <Card.Body>
@@ -32,12 +32,16 @@ const About = () => {
                   <p style={{ textAlign: "justify" }}>
                     Hi Everyone, I am{" "}
                     <span className="purple">Ravi Sharma </span>
-                    from <span className="purple"> Dewas, (Madhya Pradesh).</span>
+                    from{" "}
+                    <span className="purple"> Dewas, (Madhya Pradesh).</span>
                     <br />
-                    I am currently employed as a Senior Software Developer at Globant India Pvt. Ltd..
+                    I am currently employed as a Senior Software Developer at
+                    Globant India Pvt. Ltd..
                     <br />
-                    I have completed M.Tech in the stream of Information Security and Network Management
-                    from School of computer science and information technology D.A.V.V. Indore, Madhya Pradesh.
+                    I have completed M.Tech in the stream of Information
+                    Security and Network Management from School of computer
+                    science and information technology D.A.V.V. Indore, Madhya
+                    Pradesh.
                     <br />
                     <br />
                     Apart from coding, some other activities that I love to do!
@@ -55,7 +59,7 @@ const About = () => {
                   </ul>
 
                   <p style={{ color: "rgb(155 126 172)" }}>
-                  "Work to create solutions that have a real impact!"{" "}
+                    `Work to create solutions that have a real impact!`{" "}
                   </p>
                   <footer className="blockquote-footer">Ravi</footer>
                 </blockquote>

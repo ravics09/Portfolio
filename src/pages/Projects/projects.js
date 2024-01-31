@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Particles from "./../../components/particle";
-import ProjectCard from './projectCard';
+import ProjectCard from "./projectCard";
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I&apos;ve worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -45,7 +45,7 @@ const Projects = () => {
               title="Dev Assist"
               description="Online platform that contains a collection of free resources for product developer and designers. This is a single page web app build using reactjs "
               ghLink="https://github.com/ravics09/devassist"
-              demoLink="https://devassist.netlify.app/"              
+              demoLink="https://devassist.netlify.app/"
             />
           </Col>
 

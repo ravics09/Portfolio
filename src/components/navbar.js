@@ -11,7 +11,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineContacts
+  AiOutlineContacts,
 } from "react-icons/ai";
 import logo from "../assets/logo.png";
 
@@ -77,7 +77,8 @@ const NavBar = () => {
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
-                /> Projects
+                />{" "}
+                Projects
               </Nav.Link>
             </Nav.Item>
 

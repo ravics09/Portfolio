@@ -7,13 +7,9 @@ import {
   DiMongodb,
   DiGit,
   DiHtml5,
-  DiCss3
+  DiCss3,
 } from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiPostgresql,
-} from "react-icons/si";
+import { SiRedis, SiFirebase, SiPostgresql } from "react-icons/si";
 
 const SkillSet = () => {
   return (

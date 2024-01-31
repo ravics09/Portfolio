@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -36,5 +37,5 @@ const ProjectCard = (props) => {
       </Card.Body>
     </Card>
   );
-}
+};
 export default ProjectCard;
