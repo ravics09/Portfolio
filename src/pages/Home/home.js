@@ -1,11 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter, AiFillYoutube } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 import myImg from "../../assets/avatar.svg";
