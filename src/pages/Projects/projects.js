@@ -18,12 +18,24 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              // imgPath={editor}
+              isBlog={false}
+              title="Dev Assist"
+              description="Online platform that contains a collection of free resources for product developer and designers. This is a single page web app build using reactjs "
+              ghLink="https://github.com/ravics09/devassist"
+              demoLink="https://devassist.netlify.app/"
+              altText="Dev Assist"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               // imgPath={chatify}
               isBlog={false}
               title="Auth App"
               description="Node JS Backend app  with features of signin, signup, google signin, reset password, forgot password. Implemented all security features and caching support. Documented the REST API endpoints using open api and containerized on docker."
               ghLink="https://github.com/ravics09/AuthApp"
               demoLink="/"
+              altText="Auth App"
             />
           </Col>
 
@@ -35,17 +47,7 @@ const Projects = () => {
               description="A website for developer community where they can post articles and share the knowledge. It has a list of Features like create, edit, delete post along with like, comment, save post features. Built on MERN stack technologies."
               ghLink="https://github.com/ravics09/javascriptcentric"
               demoLink="/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              // imgPath={editor}
-              isBlog={false}
-              title="Dev Assist"
-              description="Online platform that contains a collection of free resources for product developer and designers. This is a single page web app build using reactjs "
-              ghLink="https://github.com/ravics09/devassist"
-              demoLink="https://devassist.netlify.app/"
+              altText="JavaScript Centric"
             />
           </Col>
 
@@ -57,6 +59,7 @@ const Projects = () => {
               description="Online shopping platform for gaming related accessories and items. It include a list of products with featires like sort by rating, price, types. Also payment methods integration with paytm, paypal, credit card."
               ghLink="https://github.com/ravics09/alitekart"
               demoLink="/"
+              altText="Alite Kart"
             />
           </Col>
 
@@ -68,6 +71,7 @@ const Projects = () => {
               description="Online shopping platform for gaming related accessories and items. It include a list of products with featires like sort by rating, price, types. Also payment methods integration with paytm, paypal, credit card."
               ghLink="https://github.com/ravics09/alitekart"
               demoLink="/"
+              altText="Alite Kart"
             />
           </Col>
 
@@ -79,6 +83,7 @@ const Projects = () => {
               description="Online shopping platform for gaming related accessories and items. It include a list of products with featires like sort by rating, price, types. Also payment methods integration with paytm, paypal, credit card."
               ghLink="https://github.com/ravics09/alitekart"
               demoLink="/"
+              altText="Alite Kart"
             />
           </Col>
         </Row>
